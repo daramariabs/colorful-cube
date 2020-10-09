@@ -41,18 +41,17 @@ body {
     top: 100px;
     left: 100px;
     transform: rotateX(10deg) rotateY(10deg);
-    
   }
 
   @keyframes example {
     to {
-        transform: rotateY(220deg) rotateX(220deg);  
+      transform: rotateY(220deg) rotateX(220deg);  
     }
   }
 
   .cubo:hover {
     animation-name: example;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     
   }
