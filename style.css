@@ -44,6 +44,9 @@ body {
   }
 
   @keyframes example {
+    from {
+      transform: rotateX(10deg) rotateY(10deg);
+    }
     to {
       transform: rotateY(220deg) rotateX(220deg);  
     }
@@ -51,7 +54,7 @@ body {
 
   .cubo:hover {
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     
   }
